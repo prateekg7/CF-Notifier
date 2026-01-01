@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+env/
+.env
+
+# Logs
+*.log
+tracker.log
+
+.DS_Store
+
+data/
+contest_*.ics

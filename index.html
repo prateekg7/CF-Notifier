@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Codeforces Calendar</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            font-family: -apple-system, system-ui, sans-serif;
+            max-width: 600px;
+            margin: 40px auto;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .btn {
+            display: block;
+            margin: 15px 0;
+            padding: 18px;
+            border-radius: 12px;
+            text-decoration: none;
+            font-weight: bold;
+            color: white;
+        }
+
+        .ios {
+            background-color: #007AFF;
+        }
+
+        .google {
+            background-color: #DB4437;
+        }
+
+        input {
+            width: 100%;
+            padding: 12px;
+            border-radius: 8px;
+            border: 1px solid #ccc;
+            text-align: center;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Codeforces Calendar</h1>
+    <p>Auto-updating schedule. Updates hourly.</p>
+
+    <a id="ios-btn" href="#" class="btn ios">Add to Apple Calendar</a>
+    <a id="google-btn" href="#" class="btn google">Add to Google Calendar</a>
+
+    <p style="margin-top: 40px; color: #666;">Manual Feed URL:</p>
+    <input type="text" id="feed-url" readonly onclick="this.select()">
+
+    <script>
+        // Dynamically determine the ICS URL based on where this page is hosted
+        const repoUrl = window.location.href.replace(/\/$/, "");
+        const icsUrl = repoUrl + "/codeforces.ics";
+
+        // Protocol hack for WebCal (iOS)
+        const webcalUrl = icsUrl.replace("https://", "webcal://").replace("http://", "webcal://");
+
+        document.getElementById("ios-btn").href = webcalUrl;
+        document.getElementById("google-btn").href = "https://calendar.google.com/calendar/render?cid=" + encodeURIComponent(icsUrl);
+        document.getElementById("feed-url").value = icsUrl;
+    </script>
+</body>
+
+</html>
