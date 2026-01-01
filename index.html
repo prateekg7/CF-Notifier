@@ -61,7 +61,11 @@
         const webcalUrl = icsUrl.replace("https://", "webcal://").replace("http://", "webcal://");
 
         document.getElementById("ios-btn").href = webcalUrl;
-        document.getElementById("google-btn").href = "https://calendar.google.com/calendar/render?cid=" + encodeURIComponent(icsUrl);
+
+        // Add cache buster to ensure Google fetches a fresh copy
+        const googleLink = "https://calendar.google.com/calendar/render?cid=" + encodeURIComponent(icsUrl + "?t=" + new Date().getTime());
+        document.getElementById("google-btn").href = googleLink;
+
         document.getElementById("feed-url").value = icsUrl;
     </script>
 </body>
