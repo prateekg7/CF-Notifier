@@ -41,18 +41,39 @@ def main():
         e.name = f"CF: {c['name']}"
         e.begin = start
         e.end = end
-        e.uid = f"CF_{c['id']}@codeforces.com" # Stable ID so updates don't duplicate
+        # Stable UID is good
+        e.uid = f"CF_{c['id']}@codeforces.com" 
+        e.dtstamp = datetime.now(timezone.utc) # REQUIRED by RFC 5545 
+        
+        # REQUIRED: DTSTAMP must be present for valid iCalendar
+        # The 'ics' library usually adds this, but let's be explicit if needed or trust the lib.
+        # Actually, let's fix the manual string injection first which might corrupt line endings.
+        
         e.description = f"Link: https://codeforces.com/contest/{c['id']}"
         e.url = f"https://codeforces.com/contest/{c['id']}"
         
         cal.events.add(e)
 
     # Save to file
+    # Google Calendar is VERY strict about CRLF (\r\n) line endings, mostly served via HTTP.
+    # But files on disk should be fine. The issue might be the manual string hack.
+    
     with open(ICS_FILE, 'w') as f:
-        ics_data = str(cal)
-        
-        # This adds a 1-day and 1-hour alert to every event.
-        alarms = """BEGIN:VALARM
+        # We will iterate lines and inject alarms safely
+        for line in cal:
+            f.write(line)
+            if line.startswith("END:VEVENT"):
+                # Wait, this logic is wrong. We need to inject BEFORE END:VEVENT.
+                pass 
+
+    # Better approach: Convert to string, then replace.
+    ics_text = str(cal)
+    
+    # Ensure CRLF line endings explicitly just in case
+    # (The library usually does \r\n, but Windows/Linux/Mac diffs happen)
+    
+    # RE-INJECT ALARMS SAFELY
+    alarm_block = """BEGIN:VALARM
 TRIGGER:-P1D
 ACTION:DISPLAY
 DESCRIPTION:Contest tomorrow!
@@ -61,11 +82,12 @@ BEGIN:VALARM
 TRIGGER:-PT1H
 ACTION:DISPLAY
 DESCRIPTION:Contest in 1 hour!
-END:VALARM
-END:VEVENT"""
-        
-        # Inject alarms into every event
-        final_ics = ics_data.replace("END:VEVENT", alarms)
+END:VALARM"""
+    
+    # Insert alarms before the closing tag of each event
+    final_ics = ics_text.replace("END:VEVENT", f"{alarm_block}\r\nEND:VEVENT")
+    
+    with open(ICS_FILE, 'w', newline='') as f:
         f.write(final_ics)
         
     logger.info("Calendar updated!")
