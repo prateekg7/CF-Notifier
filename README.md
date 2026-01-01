@@ -8,7 +8,7 @@ A lightweight, serverless tool that generates an auto-updating **iCalendar (.ics
 
 ## How to Subscribe
 
-**[Click Here to Subscribe](https://prateekg7.github.io/CFNotify/)**
+**[Click Here to Subscribe](https://prateekg7.github.io/CF-Notifier/)**
 
 This link will take you to a landing page where you can:
 - **Add to Apple Calendar** (iPhone/Mac)
