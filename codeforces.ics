@@ -23,7 +23,7 @@ BEGIN:VEVENT
 DESCRIPTION:Link: https://codeforces.com/contest/2184
 DTEND:20260112T165000Z
 DTSTART:20260112T143500Z
-SUMMARY:CF: Codeforces Round (Div. 3)
+SUMMARY:CF: Codeforces Round 1072 (Div. 3)
 UID:CF_2184@codeforces.com
 URL:https://codeforces.com/contest/2184
 BEGIN:VALARM
