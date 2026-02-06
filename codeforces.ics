@@ -5,7 +5,7 @@ BEGIN:VEVENT
 DESCRIPTION:Link: https://codeforces.com/contest/2194
 DTEND:20260208T110500Z
 DTSTART:20260208T090500Z
-SUMMARY:CF: Codeforces Round (Div. 2)
+SUMMARY:CF: Codeforces Round 1078 (Div. 2)
 UID:CF_2194@codeforces.com
 URL:https://codeforces.com/contest/2194
 BEGIN:VALARM
@@ -41,7 +41,7 @@ BEGIN:VEVENT
 DESCRIPTION:Link: https://codeforces.com/contest/2197
 DTEND:20260211T163500Z
 DTSTART:20260211T143500Z
-SUMMARY:CF: Codeforces Round (Div. 2)
+SUMMARY:CF: Codeforces Round 1079 (Div. 2)
 UID:CF_2197@codeforces.com
 URL:https://codeforces.com/contest/2197
 BEGIN:VALARM
@@ -59,7 +59,7 @@ BEGIN:VEVENT
 DESCRIPTION:Link: https://codeforces.com/contest/2196
 DTEND:20260211T163500Z
 DTSTART:20260211T143500Z
-SUMMARY:CF: Codeforces Round (Div. 1)
+SUMMARY:CF: Codeforces Round 1079 (Div. 1)
 UID:CF_2196@codeforces.com
 URL:https://codeforces.com/contest/2196
 BEGIN:VALARM
