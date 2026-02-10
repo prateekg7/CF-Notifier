@@ -93,9 +93,9 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Link: https://codeforces.com/contest/2195
-DTEND:20260215T165000Z
+DTEND:20260215T170500Z
 DTSTART:20260215T143500Z
-SUMMARY:CF: Codeforces Round (Div. 3)
+SUMMARY:CF: Codeforces Round 1080 (Div. 3)
 UID:CF_2195@codeforces.com
 URL:https://codeforces.com/contest/2195
 BEGIN:VALARM
