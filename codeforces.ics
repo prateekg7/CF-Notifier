@@ -5,7 +5,7 @@ BEGIN:VEVENT
 DESCRIPTION:Link: https://codeforces.com/contest/2218
 DTEND:20260404T165000Z
 DTSTART:20260404T143500Z
-SUMMARY:CF: Codeforces Round (Div. 4)
+SUMMARY:CF: Codeforces Round 1090 (Div. 4)
 UID:CF_2218@codeforces.com
 URL:https://codeforces.com/contest/2218
 BEGIN:VALARM
