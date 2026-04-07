@@ -20,12 +20,12 @@ DESCRIPTION:Contest in 1 hour!
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Link: https://codeforces.com/contest/2186
-DTEND:20260411T150000Z
-DTSTART:20260411T120000Z
-SUMMARY:CF: Midnight Code Cup 2026 Qualification Round
-UID:CF_2186@codeforces.com
-URL:https://codeforces.com/contest/2186
+DESCRIPTION:Link: https://codeforces.com/contest/2220
+DTEND:20260413T163500Z
+DTSTART:20260413T143500Z
+SUMMARY:CF: Codeforces Round (Div. 2)
+UID:CF_2220@codeforces.com
+URL:https://codeforces.com/contest/2220
 BEGIN:VALARM
 TRIGGER:-P1D
 ACTION:DISPLAY
@@ -62,24 +62,6 @@ DTSTART:20260413T143500Z
 SUMMARY:CF: Codeforces Round (Div. 1)
 UID:CF_2219@codeforces.com
 URL:https://codeforces.com/contest/2219
-BEGIN:VALARM
-TRIGGER:-P1D
-ACTION:DISPLAY
-DESCRIPTION:Contest tomorrow!
-END:VALARM
-BEGIN:VALARM
-TRIGGER:-PT1H
-ACTION:DISPLAY
-DESCRIPTION:Contest in 1 hour!
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Link: https://codeforces.com/contest/2220
-DTEND:20260413T163500Z
-DTSTART:20260413T143500Z
-SUMMARY:CF: Codeforces Round (Div. 2)
-UID:CF_2220@codeforces.com
-URL:https://codeforces.com/contest/2220
 BEGIN:VALARM
 TRIGGER:-P1D
 ACTION:DISPLAY
