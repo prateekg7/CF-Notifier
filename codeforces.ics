@@ -5,7 +5,7 @@ BEGIN:VEVENT
 DESCRIPTION:Link: https://codeforces.com/contest/2216
 DTEND:20260412T083500Z
 DTSTART:20260412T053500Z
-SUMMARY:CF: Codeforces Round (Div. 2)
+SUMMARY:CF: Codeforces Round 1092 (Div. 2)
 UID:CF_2216@codeforces.com
 URL:https://codeforces.com/contest/2216
 BEGIN:VALARM
@@ -23,7 +23,7 @@ BEGIN:VEVENT
 DESCRIPTION:Link: https://codeforces.com/contest/2220
 DTEND:20260413T163500Z
 DTSTART:20260413T143500Z
-SUMMARY:CF: Codeforces Round (Div. 2)
+SUMMARY:CF: Codeforces Round 1093 (Div. 2)
 UID:CF_2220@codeforces.com
 URL:https://codeforces.com/contest/2220
 BEGIN:VALARM
@@ -41,7 +41,7 @@ BEGIN:VEVENT
 DESCRIPTION:Link: https://codeforces.com/contest/2215
 DTEND:20260412T083500Z
 DTSTART:20260412T053500Z
-SUMMARY:CF: Codeforces Round (Div. 1)
+SUMMARY:CF: Codeforces Round 1092 (Div. 1)
 UID:CF_2215@codeforces.com
 URL:https://codeforces.com/contest/2215
 BEGIN:VALARM
@@ -59,7 +59,7 @@ BEGIN:VEVENT
 DESCRIPTION:Link: https://codeforces.com/contest/2219
 DTEND:20260413T163500Z
 DTSTART:20260413T143500Z
-SUMMARY:CF: Codeforces Round (Div. 1)
+SUMMARY:CF: Codeforces Round 1093 (Div. 1)
 UID:CF_2219@codeforces.com
 URL:https://codeforces.com/contest/2219
 BEGIN:VALARM
