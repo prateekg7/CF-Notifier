@@ -20,28 +20,10 @@ DESCRIPTION:Contest in 1 hour!
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Link: https://codeforces.com/contest/2213
-DTEND:20260423T163500Z
-DTSTART:20260423T143500Z
-SUMMARY:CF: Codeforces Round (Div. 2)
-UID:CF_2213@codeforces.com
-URL:https://codeforces.com/contest/2213
-BEGIN:VALARM
-TRIGGER:-P1D
-ACTION:DISPLAY
-DESCRIPTION:Contest tomorrow!
-END:VALARM
-BEGIN:VALARM
-TRIGGER:-PT1H
-ACTION:DISPLAY
-DESCRIPTION:Contest in 1 hour!
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 DESCRIPTION:Link: https://codeforces.com/contest/2222
 DTEND:20260425T170500Z
 DTSTART:20260425T143500Z
-SUMMARY:CF: Codeforces Round (Div. 1 + Div. 2)
+SUMMARY:CF: Spectral::Cup 2026 Round 1 (Codeforces Round 1094\, Div. 1 + Div. 2)
 UID:CF_2222@codeforces.com
 URL:https://codeforces.com/contest/2222
 BEGIN:VALARM
