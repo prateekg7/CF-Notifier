@@ -2,12 +2,12 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:CFNotify
 BEGIN:VEVENT
-DESCRIPTION:Link: https://codeforces.com/contest/2226
-DTEND:20260428T165000Z
-DTSTART:20260428T143500Z
-SUMMARY:CF: Codeforces Round 1095 (Div. 2)
-UID:CF_2226@codeforces.com
-URL:https://codeforces.com/contest/2226
+DESCRIPTION:Link: https://codeforces.com/contest/2223
+DTEND:20260506T083500Z
+DTSTART:20260506T060500Z
+SUMMARY:CF: Codeforces Round (Div. 1\,  Based on Zhili Cup 2026)
+UID:CF_2223@codeforces.com
+URL:https://codeforces.com/contest/2223
 BEGIN:VALARM
 TRIGGER:-P1D
 ACTION:DISPLAY
@@ -20,12 +20,30 @@ DESCRIPTION:Contest in 1 hour!
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Link: https://codeforces.com/contest/2223
-DTEND:20260506T083500Z
-DTSTART:20260506T060500Z
-SUMMARY:CF: Codeforces Round (Div. 1\,  Based on Zhili Cup 2026)
-UID:CF_2223@codeforces.com
-URL:https://codeforces.com/contest/2223
+DESCRIPTION:Link: https://codeforces.com/contest/2227
+DTEND:20260430T170500Z
+DTSTART:20260430T143500Z
+SUMMARY:CF: Codeforces Round (Div. 3)
+UID:CF_2227@codeforces.com
+URL:https://codeforces.com/contest/2227
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Contest tomorrow!
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Contest in 1 hour!
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Link: https://codeforces.com/contest/2226
+DTEND:20260428T165000Z
+DTSTART:20260428T143500Z
+SUMMARY:CF: Codeforces Round 1095 (Div. 2)
+UID:CF_2226@codeforces.com
+URL:https://codeforces.com/contest/2226
 BEGIN:VALARM
 TRIGGER:-P1D
 ACTION:DISPLAY
@@ -56,12 +74,12 @@ DESCRIPTION:Contest in 1 hour!
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Link: https://codeforces.com/contest/2227
-DTEND:20260430T170500Z
-DTSTART:20260430T143500Z
-SUMMARY:CF: Codeforces Round (Div. 3)
-UID:CF_2227@codeforces.com
-URL:https://codeforces.com/contest/2227
+DESCRIPTION:Link: https://codeforces.com/contest/2228
+DTEND:20260516T163500Z
+DTSTART:20260516T143500Z
+SUMMARY:CF: Codeforces Round (Div. 2)
+UID:CF_2228@codeforces.com
+URL:https://codeforces.com/contest/2228
 BEGIN:VALARM
 TRIGGER:-P1D
 ACTION:DISPLAY
