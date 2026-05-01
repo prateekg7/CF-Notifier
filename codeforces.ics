@@ -23,7 +23,7 @@ BEGIN:VEVENT
 DESCRIPTION:Link: https://codeforces.com/contest/2223
 DTEND:20260506T083500Z
 DTSTART:20260506T060500Z
-SUMMARY:CF: Codeforces Round (Div. 1\,  Based on Zhili Cup 2026)
+SUMMARY:CF: Codeforces Round 1097 (Div. 1\,  Based on Zhili Cup 2026)
 UID:CF_2223@codeforces.com
 URL:https://codeforces.com/contest/2223
 BEGIN:VALARM
@@ -41,7 +41,7 @@ BEGIN:VEVENT
 DESCRIPTION:Link: https://codeforces.com/contest/2224
 DTEND:20260506T083500Z
 DTSTART:20260506T060500Z
-SUMMARY:CF: Codeforces Round (Div. 2\,  Based on Zhili Cup 2026)
+SUMMARY:CF: Codeforces Round 1097 (Div. 2\,  Based on Zhili Cup 2026)
 UID:CF_2224@codeforces.com
 URL:https://codeforces.com/contest/2224
 BEGIN:VALARM
