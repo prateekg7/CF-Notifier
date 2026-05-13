@@ -21,7 +21,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Link: https://codeforces.com/contest/2231
-DTEND:20260521T165000Z
+DTEND:20260521T163500Z
 DTSTART:20260521T143500Z
 SUMMARY:CF: Codeforces Round (Div. 2)
 UID:CF_2231@codeforces.com
@@ -59,7 +59,7 @@ BEGIN:VEVENT
 DESCRIPTION:Link: https://codeforces.com/contest/2228
 DTEND:20260516T165000Z
 DTSTART:20260516T143500Z
-SUMMARY:CF: Codeforces Round (Div. 2)
+SUMMARY:CF: Codeforces Round 1098 (Div. 2)
 UID:CF_2228@codeforces.com
 URL:https://codeforces.com/contest/2228
 BEGIN:VALARM
