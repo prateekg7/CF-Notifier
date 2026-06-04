@@ -23,7 +23,7 @@ BEGIN:VEVENT
 DESCRIPTION:Link: https://codeforces.com/contest/2234
 DTEND:20260607T165000Z
 DTSTART:20260607T143500Z
-SUMMARY:CF: Codeforces Round (Div. 2)
+SUMMARY:CF: Codeforces Round 1102 (Div. 2)
 UID:CF_2234@codeforces.com
 URL:https://codeforces.com/contest/2234
 BEGIN:VALARM
