@@ -5,7 +5,7 @@ BEGIN:VEVENT
 DESCRIPTION:Link: https://codeforces.com/contest/2237
 DTEND:20260618T173500Z
 DTSTART:20260618T143500Z
-SUMMARY:CF: Order Capital Round 2 (Codeforces Round\, Div. 1 + Div. 2)
+SUMMARY:CF: Order Capital Round 2 (Codeforces Round 1104\, Div. 1 + Div. 2)
 UID:CF_2237@codeforces.com
 URL:https://codeforces.com/contest/2237
 BEGIN:VALARM
