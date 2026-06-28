@@ -41,7 +41,7 @@ BEGIN:VEVENT
 DESCRIPTION:Link: https://codeforces.com/contest/2241
 DTEND:20260630T165000Z
 DTSTART:20260630T143500Z
-SUMMARY:CF: Codeforces Round (Div. 3)
+SUMMARY:CF: Codeforces Round 1107 (Div. 3)
 UID:CF_2241@codeforces.com
 URL:https://codeforces.com/contest/2241
 BEGIN:VALARM
