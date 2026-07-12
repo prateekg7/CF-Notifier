@@ -41,7 +41,7 @@ BEGIN:VEVENT
 DESCRIPTION:Link: https://codeforces.com/contest/2245
 DTEND:20260716T170500Z
 DTSTART:20260716T143500Z
-SUMMARY:CF: Spectral::Cup 2026 Round 3 (Codeforces Round\, Div. 1 + Div. 2)
+SUMMARY:CF: Spectral::Cup 2026 Round 3 (Codeforces Round 1110\, Div. 1 + Div. 2)
 UID:CF_2245@codeforces.com
 URL:https://codeforces.com/contest/2245
 BEGIN:VALARM
