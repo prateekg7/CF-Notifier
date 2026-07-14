@@ -5,7 +5,7 @@ BEGIN:VEVENT
 DESCRIPTION:Link: https://codeforces.com/contest/2247
 DTEND:20260718T163500Z
 DTSTART:20260718T143500Z
-SUMMARY:CF: Codeforces Round (Div. 2)
+SUMMARY:CF: Codeforces Round 1111 (Div. 2)
 UID:CF_2247@codeforces.com
 URL:https://codeforces.com/contest/2247
 BEGIN:VALARM
