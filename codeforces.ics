@@ -20,10 +20,28 @@ DESCRIPTION:Contest in 1 hour!
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+DESCRIPTION:Link: https://codeforces.com/contest/2253
+DTEND:20260806T163500Z
+DTSTART:20260806T143500Z
+SUMMARY:CF: Educational Codeforces Round 193 (Rated for Div. 2)
+UID:CF_2253@codeforces.com
+URL:https://codeforces.com/contest/2253
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Contest tomorrow!
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Contest in 1 hour!
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 DESCRIPTION:Link: https://codeforces.com/contest/2248
 DTEND:20260801T133500Z
 DTSTART:20260801T113500Z
-SUMMARY:CF: Codeforces Round (Div. 2)
+SUMMARY:CF: Codeforces Round 1113 (Div. 2)
 UID:CF_2248@codeforces.com
 URL:https://codeforces.com/contest/2248
 BEGIN:VALARM
