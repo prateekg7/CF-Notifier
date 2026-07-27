@@ -2,12 +2,12 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:CFNotify
 BEGIN:VEVENT
-DESCRIPTION:Link: https://codeforces.com/contest/2252
-DTEND:20260806T163500Z
-DTSTART:20260806T143500Z
-SUMMARY:CF: Codeforces Round (Div. 2)
-UID:CF_2252@codeforces.com
-URL:https://codeforces.com/contest/2252
+DESCRIPTION:Link: https://codeforces.com/contest/2253
+DTEND:20260807T163500Z
+DTSTART:20260807T143500Z
+SUMMARY:CF: Educational Codeforces Round 193 (Rated for Div. 2)
+UID:CF_2253@codeforces.com
+URL:https://codeforces.com/contest/2253
 BEGIN:VALARM
 TRIGGER:-P1D
 ACTION:DISPLAY
@@ -20,12 +20,12 @@ DESCRIPTION:Contest in 1 hour!
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Link: https://codeforces.com/contest/2253
+DESCRIPTION:Link: https://codeforces.com/contest/2252
 DTEND:20260806T163500Z
 DTSTART:20260806T143500Z
-SUMMARY:CF: Educational Codeforces Round 193 (Rated for Div. 2)
-UID:CF_2253@codeforces.com
-URL:https://codeforces.com/contest/2253
+SUMMARY:CF: Codeforces Round (Div. 2)
+UID:CF_2252@codeforces.com
+URL:https://codeforces.com/contest/2252
 BEGIN:VALARM
 TRIGGER:-P1D
 ACTION:DISPLAY
