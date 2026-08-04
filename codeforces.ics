@@ -41,7 +41,7 @@ BEGIN:VEVENT
 DESCRIPTION:Link: https://codeforces.com/contest/2256
 DTEND:20260809T170500Z
 DTSTART:20260809T143500Z
-SUMMARY:CF: Codeforces Round (Div. 2)
+SUMMARY:CF: Codeforces Round 1116 (Div. 2)
 UID:CF_2256@codeforces.com
 URL:https://codeforces.com/contest/2256
 BEGIN:VALARM
@@ -77,7 +77,7 @@ BEGIN:VEVENT
 DESCRIPTION:Link: https://codeforces.com/contest/2255
 DTEND:20260809T170500Z
 DTSTART:20260809T143500Z
-SUMMARY:CF: Codeforces Round (Div. 1)
+SUMMARY:CF: Codeforces Round 1116 (Div. 1)
 UID:CF_2255@codeforces.com
 URL:https://codeforces.com/contest/2255
 BEGIN:VALARM
