@@ -41,7 +41,7 @@ BEGIN:VEVENT
 DESCRIPTION:Link: https://codeforces.com/contest/2266
 DTEND:20260921T170500Z
 DTSTART:20260921T143500Z
-SUMMARY:CF: Codeforces Round (Div. 3)
+SUMMARY:CF: Codeforces Round 1122 (Div. 3)
 UID:CF_2266@codeforces.com
 URL:https://codeforces.com/contest/2266
 BEGIN:VALARM
