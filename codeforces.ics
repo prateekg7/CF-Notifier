@@ -5,7 +5,7 @@ BEGIN:VEVENT
 DESCRIPTION:Link: https://codeforces.com/contest/2261
 DTEND:20261017T173500Z
 DTSTART:20261017T143500Z
-SUMMARY:CF: Codeforces Round (Div. 1 + Div. 2)
+SUMMARY:CF: WorldQuant Round 1 (Codeforces Round Div. 1 + Div. 2)
 UID:CF_2261@codeforces.com
 URL:https://codeforces.com/contest/2261
 BEGIN:VALARM
