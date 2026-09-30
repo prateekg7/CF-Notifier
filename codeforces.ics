@@ -2,30 +2,12 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:CFNotify
 BEGIN:VEVENT
-DESCRIPTION:Link: https://codeforces.com/contest/2261
-DTEND:20261017T173500Z
-DTSTART:20261017T143500Z
-SUMMARY:CF: WorldQuant Round 1 (Codeforces Round Div. 1 + Div. 2)
-UID:CF_2261@codeforces.com
-URL:https://codeforces.com/contest/2261
-BEGIN:VALARM
-TRIGGER:-P1D
-ACTION:DISPLAY
-DESCRIPTION:Contest tomorrow!
-END:VALARM
-BEGIN:VALARM
-TRIGGER:-PT1H
-ACTION:DISPLAY
-DESCRIPTION:Contest in 1 hour!
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Link: https://codeforces.com/contest/2274
+DESCRIPTION:Link: https://codeforces.com/contest/2273
 DTEND:20261011T210500Z
 DTSTART:20261011T183500Z
-SUMMARY:CF: Codeforces Round (Div. 2)
-UID:CF_2274@codeforces.com
-URL:https://codeforces.com/contest/2274
+SUMMARY:CF: Codeforces Round (Div. 1)
+UID:CF_2273@codeforces.com
+URL:https://codeforces.com/contest/2273
 BEGIN:VALARM
 TRIGGER:-P1D
 ACTION:DISPLAY
@@ -56,12 +38,48 @@ DESCRIPTION:Contest in 1 hour!
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Link: https://codeforces.com/contest/2273
+DESCRIPTION:Link: https://codeforces.com/contest/2261
+DTEND:20261017T173500Z
+DTSTART:20261017T143500Z
+SUMMARY:CF: WorldQuant Round 1 (Codeforces Round Div. 1 + Div. 2)
+UID:CF_2261@codeforces.com
+URL:https://codeforces.com/contest/2261
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Contest tomorrow!
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Contest in 1 hour!
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Link: https://codeforces.com/contest/2275
+DTEND:20261007T170500Z
+DTSTART:20261007T143500Z
+SUMMARY:CF: Codeforces Round (Div. 3)
+UID:CF_2275@codeforces.com
+URL:https://codeforces.com/contest/2275
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Contest tomorrow!
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Contest in 1 hour!
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Link: https://codeforces.com/contest/2274
 DTEND:20261011T210500Z
 DTSTART:20261011T183500Z
-SUMMARY:CF: Codeforces Round (Div. 1)
-UID:CF_2273@codeforces.com
-URL:https://codeforces.com/contest/2273
+SUMMARY:CF: Codeforces Round (Div. 2)
+UID:CF_2274@codeforces.com
+URL:https://codeforces.com/contest/2274
 BEGIN:VALARM
 TRIGGER:-P1D
 ACTION:DISPLAY
