@@ -59,7 +59,7 @@ BEGIN:VEVENT
 DESCRIPTION:Link: https://codeforces.com/contest/2275
 DTEND:20261007T170500Z
 DTSTART:20261007T143500Z
-SUMMARY:CF: Codeforces Round (Div. 3)
+SUMMARY:CF: Codeforces Round 1125 (Div. 3)
 UID:CF_2275@codeforces.com
 URL:https://codeforces.com/contest/2275
 BEGIN:VALARM
