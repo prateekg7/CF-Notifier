@@ -23,7 +23,7 @@ BEGIN:VEVENT
 DESCRIPTION:Link: https://codeforces.com/contest/2271
 DTEND:20261010T180500Z
 DTSTART:20261010T150500Z
-SUMMARY:CF: DeepInfra Round 1 (Codeforces Round\, Div. 1 + Div. 2)
+SUMMARY:CF: DeepInfra Round 1 (Codeforces Round 1126\, Div. 1 + Div. 2)
 UID:CF_2271@codeforces.com
 URL:https://codeforces.com/contest/2271
 BEGIN:VALARM
